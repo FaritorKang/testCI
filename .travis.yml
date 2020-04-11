@@ -13,5 +13,7 @@ branches:
 
 install: true
 
-script: mvn install -DskipTests=true
+script:
+  - mvn help:system
+  - mvn install -DskipTests=true
 
