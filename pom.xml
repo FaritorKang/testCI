@@ -40,7 +40,7 @@
                     <compilerArgument>-XDignore.symbol.file</compilerArgument>
                     <compilerArguments>
                         <verbose/>
-                        <bootclasspath>${java.home}/lib/rt.jar${path.separator}${java.home}/lib/jce.jar</bootclasspath>
+                        <bootclasspath>${sun.boot.library.path}/rt.jar${path.separator}${sun.boot.library.path}/jce.jar</bootclasspath>
                     </compilerArguments>
                 </configuration>
             </plugin>
