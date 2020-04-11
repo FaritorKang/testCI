@@ -1,0 +1,11 @@
+language: java
+sudo: false # faster builds
+
+jdk:
+  - openjdk11
+  - openjdk8
+
+install: true
+
+script: mvn install -DskipTests=true
+
