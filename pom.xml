@@ -37,6 +37,11 @@
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                     <encoding>${default.charset}</encoding>
+                    <compilerArguments>
+                        <compilerArgument>-XDignore.symbol.file</compilerArgument>
+                        <verbose/>
+                        <bootclasspath>${java.home}/lib/rt.jar${path.separator}${java.home}/lib/jce.jar</bootclasspath>
+                    </compilerArguments>
                 </configuration>
             </plugin>
         </plugins>
