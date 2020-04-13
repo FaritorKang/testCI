@@ -1,7 +1,6 @@
 language: java
 
 jdk:
-  - openjdk11
   - openjdk8
 
 cache:
@@ -15,6 +14,5 @@ branches:
 install: true
 
 script:
-  - mvn help:system
   - mvn install -DskipTests=true
 
